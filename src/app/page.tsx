@@ -29,9 +29,10 @@ export default function Home() {
 
       <section id="contact" className="max-w-6xl mx-auto px-6 py-20 border-t border-zinc-800">
         <h2 className="text-3xl font-bold">Let&apos;s Work Together</h2>
-        <div className="mt-6 flex gap-4">
-          <a href="mailto:zaltedipali3@gmail.com" className="bg-white text-black px-6 py-3 rounded-full">Email Me</a>
-          <a href="https://github.com/DipaliZalte123" target="_blank" className="border border-zinc-700 px-6 py-3 rounded-full">GitHub</a>
+        <div className="mt-6 flex flex-wrap gap-4">
+          <a href="mailto:zaltedipali3@gmail.com" className="bg-white text-black px-6 py-3 rounded-full font-medium">Email Me</a>
+          <a href="https://www.linkedin.com/in/dipali-zalte-162a96428" target="_blank" className="border border-zinc-700 px-6 py-3 rounded-full hover:bg-zinc-900">LinkedIn</a>
+          <a href="https://github.com/DipaliZalte123" target="_blank" className="border border-zinc-700 px-6 py-3 rounded-full hover:bg-zinc-900">GitHub</a>
         </div>
       </section>
     </main>
