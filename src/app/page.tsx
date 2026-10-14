@@ -21,6 +21,16 @@ export default function Home() {
           <div className="border border-zinc-800 rounded-2xl p-6"><h3 className="font-semibold">SSC (10th)</h3><p className="text-sm text-zinc-400">Maharashtra Board</p><p className="text-xl font-bold mt-2">88%</p></div>
         </div>
       </section>
+
+      <section className="max-w-6xl mx-auto px-6 py-20 border-t border-zinc-800">
+        <h2 className="text-3xl font-bold">Let's Work Together</h2>
+        <p className="text-zinc-400 mt-2">Available for internships and freelance work</p>
+        <div className="mt-8 flex flex-wrap gap-4">
+          <a href="mailto:zaltedipali3@gmail.com" className="bg-white text-black px-6 py-3 rounded-full font-medium">Email Me</a>
+          <a href="https://www.linkedin.com/in/dipali-zalte-162a96428" target="_blank" className="border border-zinc-700 px-6 py-3 rounded-full hover:bg-zinc-900">LinkedIn</a>
+          <a href="https://github.com/DipaliZalte123" target="_blank" className="border border-zinc-700 px-6 py-3 rounded-full hover:bg-zinc-900">GitHub</a>
+        </div>
+      </section>
     </main>
   );
 }
