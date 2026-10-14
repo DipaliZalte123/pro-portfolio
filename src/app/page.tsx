@@ -42,17 +42,12 @@ export default function Home() {
       <section id="contact" className="max-w-6xl mx-auto px-6 py-20 border-t border-zinc-800">
         <h2 className="text-3xl font-bold">Let's Work Together</h2>
         <p className="text-zinc-400 mt-2">Available for Python Full Stack & Data Science projects</p>
-        <div className="mt-6 flex flex-wrap gap-4">
-          <a href="mailto:dipalizalte123@gmail.com" className="bg-white text-black px-6 py-3 rounded-full font-medium">
-            Email Me
-          </a>
-          <a href="https://github.com/DipaliZalte123" target="_blank" className="border border-zinc-700 px-6 py-3 rounded-full">
-            GitHub
-          </a>
-        </div>
-        <p className="text-zinc-500 text-sm mt-6">zaltedipali3@gmail.com | Pune, Maharashtra</p>
-      </section>
+        
+          
+     <div className="mt-6 flex flex-wrap gap-4">
+    <a href="mailto:zaltedipali3@gmail.com" className="bg-white text-black px-6 py-3 rounded-full">Email Me</a>
+    <a href="https://www.linkedin.com/in/dipali-zalte-162a96428" target="_blank" className="border border-zinc-700 px-6 py-3 rounded-full">LinkedIn</a>
+    <a href="https://github.com/DipaliZalte123" target="_blank" className="border border-zinc-700 px-6 py-3 rounded-full">GitHub</a>
+  </div>
 
-    </main>
-  );
-}
+    
